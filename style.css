@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+SC&family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    height: 100%;
+    width: 230px;
+    color: aliceblue;
+    background: fixed;
+    position: fixed;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+.left li a{
+    color: white;
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    font-family: cinzel;
+    transition: 0.5s ease;
+
+}
+.left li a:hover{ 
+    padding: 20px;
+   
+    background:green;
+}
+.right{ margin-left: 230px;
+    background: linear-gradient(rgba(0, 0, 0, 0.432),rgba(0, 0, 0, 0.336) ), url(b2.jpg);
+    
+    
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5px;
+    
+   
+    color: #fff;
+    font-family:raleway ;
+    font-weight: 150;
+    scroll-behavior:auto;
+
+}
+.right h1{
+    font-size: 40px;
+    color: red;
+}
+.right h2{
+    font-family: cormorant sc;
+    border-bottom: solid rgb(255, 255, 255) 2px ;
+    color: rgb(255, 0, 0);
+    font-weight: 100px;
+    font-size: 30px;
+}
+hr{
+    border: 1px;
+    width: 300px;
+    height: 2px;
+    background-color: orange;
+    transition: 0.5s ease;
+}
+img{
+    height: 200px;
+    width:200px;
+
+}
